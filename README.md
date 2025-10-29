@@ -24,3 +24,16 @@ Paper: [Proving and Rewarding Client Diversity to Strengthen Resilience of Block
 
  
 Team: Javier Ron, Zheyuan He, Martin Monperrus (KTH Royal Institute of Technology, Stockholm, Sweden) Benoit Baudry (Université de Montréal)
+
+
+
+## Resources
+
+- Modified Lighthouse client
+ - zkVM ([https://github.com/ASSERT-KTH/lighthouse/tree/risc0-bls])
+ - TEE [https://github.com/ASSERT-KTH/lighthouse/tree/tee-bls]
+- Testnet with validation contracts
+ - Modified Kurtosis supporting docker -v mounts [https://github.com/ASSERT-KTH/kurtosis]
+ - Kurtosis YAML [https://github.com/ASSERT-KTH/lighthouse/blob/tee-bls/network-params.yaml]
+- SGX attestation
+ - [https://github.com/javierron/sgx-scaffold](runner)
